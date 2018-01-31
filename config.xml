@@ -1,19 +1,18 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
 	id        = "com.binarysoft.emumap"
-	versionCode="5"
-	version   = "5.0.0">
+	versionCode="1"
+	version   = "1.0.0">
 	<preference name="phonegap-version" value="cli-6.5.0"/>
 
     <plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
-    <platform name="ios" />
     <platform name="android" />
-    <platform name="winphone" />
+
 	
-    <name>Chi Conf</name>
+    <name>Chi-Conf</name>
     <description>CHI Event Management App</description>
     <author href="http://www.chiconf.rexauditz.com" email="info@rexauditz.com">Olumide Francis</author>
     <!--<content src="index.html" />-->
