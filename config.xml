@@ -1,0 +1,111 @@
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.binarysoft.emumap"
+	versionCode="1"
+	version   = "1.0.0">
+	<preference name="phonegap-version" value="cli-6.5.0"/>
+
+    <plugin name="cordova-plugin-whitelist" source="npm" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <platform name="ios" />
+    <platform name="android" />
+    <platform name="winphone" />
+	
+    <name>Chi Conf</name>
+    <description>
+           CHI Event Management App
+    </description>
+    <author href="https://rexauditz.come" email="olumideogundele@gmail.com">
+            Prime Data Solution
+    </author>
+    <!--<content src="index.html" />-->
+    <preference name="permissions" value="none" />
+	<preference name="android-build-tool" value="gradle" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+	<preference name="ErrorUrl" value="index.html" />
+
+	<preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="10" />
+    <preference name="android-targetSdkVersion" value="23" />
+    <preference name="android-installLocation" value="auto" />
+ 
+	 
+	<preference name="target-device" value="universal" />
+	<preference name="deployment-target" value="8.0" />
+ 
+	
+   <plugin name="cordova-plugin-geolocation" source="npm"/>
+ 
+  <gap:plugin name="de.appplant.cordova.plugin.badge" source="npm" /> 
+
+ 	  <plugin name="cordova-plugin-device" value="org.apache.cordova.device"/>
+    <plugin name="cordova-plugin-device-motion" source="npm"/>
+    <plugin name="cordova-plugin-device-orientation" source="npm"/>
+    <plugin name="cordova-plugin-dialogs" source="npm"/>
+<plugin name="cordova-plugin-file" spec="~6.0.0" />    
+ <plugin name="cordova-plugin-globalization" source="npm"/>
+    <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+    <plugin name="cordova-plugin-media" source="npm"/>
+    <plugin name="cordova-plugin-network-information" source="npm"/>
+
+ 
+	 
+    <access origin="*" />
+ 
+   <icon src="icon.png" />
+      
+       <platform name="android">
+        <icon src="res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi"/>
+        <icon src="res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi"/>
+        <icon src="res/icon/android/drawable-hdpi-icon.png" qualifier="hdpi"/>
+        <icon src="res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi"/>
+        <icon src="res/icon/android/drawable-xxhdpi-icon.png" qualifier="xxhdpi"/>
+        <icon src="res/icon/android/drawable-xxxhdpi-icon.png" qualifier="xxxhdpi"/>
+      </platform>
+      
+       
+      
+      <platform name="android">
+        <splash src="res/screen/android/drawable-port-ldpi-screen.png" qualifier="ldpi"/>
+        <splash src="res/screen/android/drawable-port-mdpi-screen.png" qualifier="mdpi"/>
+        <splash src="res/screen/android/drawable-port-hdpi-screen.png" qualifier="hdpi"/>
+        <splash src="res/screen/android/drawable-port-xhdpi-screen.png" qualifier="xhdpi"/>
+        <splash src="res/screen/android/drawable-port-xxhdpi-screen.png" qualifier="xxhdpi"/>
+        <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" qualifier="xxxhdpi"/>
+      </platform>
+ 
+
+   <!-- <plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/> -->
+    
+ 
+		
+		
+		 
+		<feature name="http://api.phonegap.com/1.0/media" />
+		<feature name="http://api.phonegap.com/1.0/network" />
+		<feature name="http://api.phonegap.com/1.0/notification" />
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
