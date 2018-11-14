@@ -12,9 +12,9 @@
     <platform name="android" />
 
 	
-    <name>Chi-Conf</name>
-    <description>CHI Event Management App</description>
-    <author href="http://www.chiconf.rexauditz.com" email="info@rexauditz.com">Olumide Francis</author>
+    <name>Upfield</name>
+    <description> Upfield Nigeria Limited</description>
+    <author href="http://www.bb.rexauditz.com" email="info@rexauditz.com">Olumide Francis</author>
     <!--<content src="index.html" />-->
     <preference name="permissions" value="none" />
 	<preference name="android-build-tool" value="gradle" />
