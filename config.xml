@@ -59,8 +59,15 @@
     <plugin name="cordova-plugin-network-information" source="npm"/>
 	 <plugin name="cordova-plugin-background-mode" source="npm"/>  
 	 <plugin name="cordova-plugin-camera" source="npm"/>
+	 <plugin name="cordova-plugin-media-capture" source="npm"/>
 	
 	
+ 
+<plugin name="cordova-plugin-media" source="npm"/>
+<plugin name="cordova-plugin-file" source="npm"/>
+<plugin name="cordova-plugin-device" source="npm"/>
+	
+ 
 	
 	
 
@@ -90,13 +97,7 @@
         <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" qualifier="xxxhdpi"/>
       </platform>
  
-	<cocoon:plugin name="cordova-plugin-camera"/>
-<cocoon:plugin name="cordova-plugin-media-capture"/>
-<cocoon:plugin name="cordova-plugin-media"/>
-<cocoon:plugin name="cordova-plugin-file"/>
-<cocoon:plugin name="cordova-plugin-device"/>
 	
- 
 
    <!-- <plugin name="org.apache.cordova.device" version="0.2.3" source="npm"/> -->
     
