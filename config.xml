@@ -90,7 +90,11 @@
         <splash src="res/screen/android/drawable-port-xxxhdpi-screen.png" qualifier="xxxhdpi"/>
       </platform>
  
-	
+	<cocoon:plugin name="cordova-plugin-camera"/>
+<cocoon:plugin name="cordova-plugin-media-capture"/>
+<cocoon:plugin name="cordova-plugin-media"/>
+<cocoon:plugin name="cordova-plugin-file"/>
+<cocoon:plugin name="cordova-plugin-device"/>
 	
  
 
